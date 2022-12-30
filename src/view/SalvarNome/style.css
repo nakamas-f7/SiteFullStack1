@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    height: 100%;
+    width: 60%;
+}
+
+.container h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 20%;
+    width: 100%;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+
+}
+
+#Formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50%;
+    width: 100%;
+
+    padding: 25px;
+}
+
+#Formulario label{
+    height: 20%;
+    width: 100%;
+
+    margin: 25px;
+
+}
+
+#Formulario input{
+    height: 100%;
+    width: 100%;
+
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+#Botao{
+    height: 20%;
+    width: 100%;
+
+    color: white;
+    background-color: crimson;
+
+    border: none;
+    cursor: pointer;
+
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
